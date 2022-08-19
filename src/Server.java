@@ -43,8 +43,8 @@ public class Server {
             socket.close();
             server.close();
 
-            System.out.println("Stopping server...");
-            System.out.println("Exited");
+            // System.out.println("Stopping server...");
+            // System.out.println("Exited");
 
         }catch(IOException ie){
             System.out.println(ie);
